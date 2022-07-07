@@ -14,7 +14,7 @@ import com.waiyanhtet.demo.AppServiceThree;
 public class AppConfig {
 
 	@Bean
-	AppClient appClient(AppService appService) {
+	AppClient appClient(@Qualifier("one") AppService appService) {
 		return new AppClient(appService);
 	}
 	
