@@ -16,7 +16,7 @@
 	<bean class="org.springframework.beans.factory.annotation.CustomAutowireConfigurer">
 		<property name="customQualifierTypes">
 			<set>
-				<value>com.waiyanhtet.customqualifier.ServiceTwo</value>
+				<value>com.waiyanhtet.customqualifier.ServiceOne</value>
 			</set>
 		</property>
 	</bean>
